@@ -1,0 +1,12 @@
+{
+    "ID": "763D015F571C48E4ACA5EF5DFD0BCA30",
+    "ActionKeyword": "st",
+    "Name": "Statis",
+    "Description": "Useful statistics plugin",
+    "Author": "Ahmed ElSaeed",
+    "Version": "1.0.0",
+    "Language": "python",
+    "Website": "https://github.com/asmpro7/StatisFlow",
+    "IcoPath": "Images\\app.png",
+    "ExecuteFileName": "main.py"
+}
