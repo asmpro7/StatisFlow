@@ -30,7 +30,7 @@ class statis(FlowLauncher):
                 index = []
                 listQ=query.split(",")
                 for num in listQ:
-                    value.append(int(num))
+                    value.append(float(num))
 
                 for num in sorted(value):
                     index.append(str(num))
@@ -76,8 +76,8 @@ class statis(FlowLauncher):
                     "Title": maxT,
                     "IcoPath": "Images/app.png",
                     "JsonRPCAction": {"method": "copy", "parameters": [maxV], }})
-                rangeT="Range: "+ str(int(index[-1])-int(index[0]))
-                rangeV=str(int(index[-1])-int(index[0]))
+                rangeT="Range: "+ str(float(index[-1])-float(index[0]))
+                rangeV=str(float(index[-1])-float(index[0]))
                 results.append({
                     "Title": rangeT,
                     "IcoPath": "Images/app.png",

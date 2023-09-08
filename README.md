@@ -44,3 +44,5 @@
 <li>Get the Variance</li>
 <li>Get the Standard Deviation</li>
 </ul>
+
+### support decimal values in v1.1.0
